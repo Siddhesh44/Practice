@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B24E47E723A2904CD646E028 /* Pods_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DECBB712431158848FDC4D /* Pods_Practice.framework */; };
+		F606702224852A2800D9C19F /* ImageCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F606702124852A2800D9C19F /* ImageCropper.swift */; };
+		F6149AFF247FBAF80024E962 /* firebaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6149AFE247FBAF80024E962 /* firebaseViewController.swift */; };
+		F622E166247CF8B800A86596 /* CarouselVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622E165247CF8B800A86596 /* CarouselVC.swift */; };
+		F622E168247D2BEB00A86596 /* CarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622E167247D2BEA00A86596 /* CarouselCell.swift */; };
+		F637C5BF247BAD2500DD5403 /* ordersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F637C5BE247BAD2500DD5403 /* ordersViewController.swift */; };
 		F64C3FE9244364000037132A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C3FE8244364000037132A /* AppDelegate.swift */; };
 		F64C3FEB244364000037132A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C3FEA244364000037132A /* SceneDelegate.swift */; };
 		F64C3FED244364000037132A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C3FEC244364000037132A /* ViewController.swift */; };
@@ -14,9 +20,23 @@
 		F64C3FF3244364000037132A /* Practice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F64C3FF1244364000037132A /* Practice.xcdatamodeld */; };
 		F64C3FF5244364010037132A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64C3FF4244364010037132A /* Assets.xcassets */; };
 		F64C3FF8244364010037132A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64C3FF6244364010037132A /* LaunchScreen.storyboard */; };
+		F64F70BC24823C6C00202B06 /* CustomDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64F70BB24823C6C00202B06 /* CustomDatePicker.xib */; };
+		F64F70BF24823F2800202B06 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64F70BE24823F2800202B06 /* DatePicker.swift */; };
+		F6AFDAFC2480E7CD00415A2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6AFDAFB2480E7CD00415A2F /* GoogleService-Info.plist */; };
+		F6AFDAFE2480F5EE00415A2F /* localNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AFDAFD2480F5EE00415A2F /* localNotificationViewController.swift */; };
+		F6AFDB00248142E200415A2F /* AnimeX_596887.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F6AFDAFF248142E200415A2F /* AnimeX_596887.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70D83CBC4927BF502F7A61D2 /* Pods-Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice.release.xcconfig"; path = "Target Support Files/Pods-Practice/Pods-Practice.release.xcconfig"; sourceTree = "<group>"; };
+		B09A6772C3777F7362F2FC55 /* Pods-Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice.debug.xcconfig"; path = "Target Support Files/Pods-Practice/Pods-Practice.debug.xcconfig"; sourceTree = "<group>"; };
+		F4DECBB712431158848FDC4D /* Pods_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F606702124852A2800D9C19F /* ImageCropper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropper.swift; sourceTree = "<group>"; };
+		F6149AFE247FBAF80024E962 /* firebaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseViewController.swift; sourceTree = "<group>"; };
+		F6149B042480076C0024E962 /* Practice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Practice.entitlements; sourceTree = "<group>"; };
+		F622E165247CF8B800A86596 /* CarouselVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselVC.swift; sourceTree = "<group>"; };
+		F622E167247D2BEA00A86596 /* CarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCell.swift; sourceTree = "<group>"; };
+		F637C5BE247BAD2500DD5403 /* ordersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ordersViewController.swift; sourceTree = "<group>"; };
 		F64C3FE5244364000037132A /* Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64C3FE8244364000037132A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F64C3FEA244364000037132A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +46,11 @@
 		F64C3FF4244364010037132A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F64C3FF7244364010037132A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F64C3FF9244364010037132A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64F70BB24823C6C00202B06 /* CustomDatePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomDatePicker.xib; sourceTree = "<group>"; };
+		F64F70BE24823F2800202B06 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		F6AFDAFB2480E7CD00415A2F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6AFDAFD2480F5EE00415A2F /* localNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localNotificationViewController.swift; sourceTree = "<group>"; };
+		F6AFDAFF248142E200415A2F /* AnimeX_596887.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AnimeX_596887.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +58,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B24E47E723A2904CD646E028 /* Pods_Practice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A003E393F62DA8E44CCC025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4DECBB712431158848FDC4D /* Pods_Practice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EE7FC3849ECC49D8BADEE0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B09A6772C3777F7362F2FC55 /* Pods-Practice.debug.xcconfig */,
+				70D83CBC4927BF502F7A61D2 /* Pods-Practice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F64C3FDC244364000037132A = {
 			isa = PBXGroup;
 			children = (
 				F64C3FE7244364000037132A /* Practice */,
 				F64C3FE6244364000037132A /* Products */,
+				7EE7FC3849ECC49D8BADEE0D /* Pods */,
+				7A003E393F62DA8E44CCC025 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +103,35 @@
 		F64C3FE7244364000037132A /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				F6149B042480076C0024E962 /* Practice.entitlements */,
 				F64C3FE8244364000037132A /* AppDelegate.swift */,
+				F6AFDAFF248142E200415A2F /* AnimeX_596887.jpeg */,
 				F64C3FEA244364000037132A /* SceneDelegate.swift */,
 				F64C3FEC244364000037132A /* ViewController.swift */,
 				F64C3FEE244364000037132A /* Main.storyboard */,
+				F64F70BD24823C7A00202B06 /* Date Picker */,
+				F6AFDAFD2480F5EE00415A2F /* localNotificationViewController.swift */,
+				F606702124852A2800D9C19F /* ImageCropper.swift */,
+				F6149AFE247FBAF80024E962 /* firebaseViewController.swift */,
+				F637C5BE247BAD2500DD5403 /* ordersViewController.swift */,
+				F622E165247CF8B800A86596 /* CarouselVC.swift */,
+				F622E167247D2BEA00A86596 /* CarouselCell.swift */,
 				F64C3FF4244364010037132A /* Assets.xcassets */,
 				F64C3FF6244364010037132A /* LaunchScreen.storyboard */,
 				F64C3FF9244364010037132A /* Info.plist */,
 				F64C3FF1244364000037132A /* Practice.xcdatamodeld */,
+				F6AFDAFB2480E7CD00415A2F /* GoogleService-Info.plist */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		F64F70BD24823C7A00202B06 /* Date Picker */ = {
+			isa = PBXGroup;
+			children = (
+				F64F70BB24823C6C00202B06 /* CustomDatePicker.xib */,
+				F64F70BE24823F2800202B06 /* DatePicker.swift */,
+			);
+			path = "Date Picker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F64C3FFC244364010037132A /* Build configuration list for PBXNativeTarget "Practice" */;
 			buildPhases = (
+				9688001D1EE85327F99EC787 /* [CP] Check Pods Manifest.lock */,
 				F64C3FE1244364000037132A /* Sources */,
 				F64C3FE2244364000037132A /* Frameworks */,
 				F64C3FE3244364000037132A /* Resources */,
+				64DFD86CEA17E1EACB3EB7B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,22 +195,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				F64C3FF8244364010037132A /* LaunchScreen.storyboard in Resources */,
+				F6AFDAFC2480E7CD00415A2F /* GoogleService-Info.plist in Resources */,
 				F64C3FF5244364010037132A /* Assets.xcassets in Resources */,
+				F6AFDB00248142E200415A2F /* AnimeX_596887.jpeg in Resources */,
+				F64F70BC24823C6C00202B06 /* CustomDatePicker.xib in Resources */,
 				F64C3FF0244364000037132A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64DFD86CEA17E1EACB3EB7B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Practice/Pods-Practice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Practice/Pods-Practice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Practice/Pods-Practice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9688001D1EE85327F99EC787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Practice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F64C3FE1244364000037132A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AFDAFE2480F5EE00415A2F /* localNotificationViewController.swift in Sources */,
 				F64C3FF3244364000037132A /* Practice.xcdatamodeld in Sources */,
+				F637C5BF247BAD2500DD5403 /* ordersViewController.swift in Sources */,
 				F64C3FED244364000037132A /* ViewController.swift in Sources */,
 				F64C3FE9244364000037132A /* AppDelegate.swift in Sources */,
+				F622E168247D2BEB00A86596 /* CarouselCell.swift in Sources */,
+				F622E166247CF8B800A86596 /* CarouselVC.swift in Sources */,
 				F64C3FEB244364000037132A /* SceneDelegate.swift in Sources */,
+				F606702224852A2800D9C19F /* ImageCropper.swift in Sources */,
+				F6149AFF247FBAF80024E962 /* firebaseViewController.swift in Sources */,
+				F64F70BF24823F2800202B06 /* DatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,15 +404,18 @@
 		};
 		F64C3FFD244364010037132A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B09A6772C3777F7362F2FC55 /* Pods-Practice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Practice/Practice.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB2EMMCMM8;
 				INFOPLIST_FILE = Practice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.infiny.Practice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infiny.MediDeals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,15 +424,18 @@
 		};
 		F64C3FFE244364010037132A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D83CBC4927BF502F7A61D2 /* Pods-Practice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Practice/Practice.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB2EMMCMM8;
 				INFOPLIST_FILE = Practice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.infiny.Practice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infiny.MediDeals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
